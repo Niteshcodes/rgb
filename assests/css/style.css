@@ -1,0 +1,197 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Zen+Dots&display=swap'); 
+
+#navbar{
+    box-shadow: 1px 1px 4px black;
+}
+
+
+.corsole{
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #ffb000;
+    height: 100vh;
+}
+
+.carousel-item img, svg {
+    /* vertical-align: middle; */
+    /* : auto; */
+    height: a;
+    /* height: fit-content; */
+    /* width: 100%; */
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.Intro{
+    width: 40vw;
+    
+    text-align: center;
+    /* background-image: linear-gradient(green,black); */
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 29px;
+    left: 0px;
+    z-index: 7;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 6%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.Intro h2 {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 311%;
+    text-align: center;
+    /* margin: auto; */
+    text-shadow:  4px 3px 6px black;
+}
+.navbar-nav li a{
+    padding: 0 22px !important;
+}
+.Intro p{
+    margin: 12px auto;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    /* position: relative; */
+    width: 60vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img.d-block.w-100 {
+    /* width: -webkit-fill-available; */
+    height:100vh;
+}
+
+#Books{
+    background-color: rgb(255, 248, 248);
+}
+
+#Books h2 {
+    padding: 25px 0;
+    font-size: 93px;
+    font-family: emoji;
+    color: #e8a300;
+    text-shadow: 4px 5px 6px black;
+}
+
+.achievements{
+    padding: 12px;
+}
+
+
+
+.Books {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.Books cards {
+    padding: 5px;
+    margin: 5px;
+    
+}
+#logo-brand{
+    display: none;
+}
+
+@media (max-width:660px) {
+        .corsole{
+            flex-direction: column;
+            height: fit-content;
+        }
+        .Intro{
+            font-size: 1em;
+            padding: 12px;
+            margin-bottom: 20px;
+        }
+
+
+        .albem{
+            width: 100vw;
+            height: 60vh;
+        }
+        .carousel-inner {
+            /* position: relative; */
+            width: 100vw;
+            height: 60vh;
+            overflow: hidden;
+        }
+        .Books{
+            flex-direction: column;
+        }
+        .card{
+            width: 100vw !important;
+            margin: 30px 0;
+        }
+        .carousel-item img, svg {
+            /* vertical-align: middle; */
+            /* : auto; */
+            height: a;
+            /* height: fit-content; */
+            /* width: 100%; */
+            min-height: 60vh;
+            /* max-height: 50vh; */
+        }
+
+        .Intro h2 {
+            color: rebeccapurple;
+            font-weight: bold;
+            text-shadow: 1px 1px 5px black;
+            font-size: 60px;
+            text-align: center;
+            width: fit-content;
+            /* margin: auto; */
+        }
+
+        .Intro {
+            font-size: 1em;
+            padding: 27px;
+            margin-bottom: 20px;
+            width: fit-content;
+        }
+        .col-10 {
+            margin: 0;
+            padding: 0 auto;
+            margin-top: 12px;
+            
+            width: 100vw;
+        }
+        li.nav-item {
+            padding: 10px 11px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Lato', sans-serif;
+/* font-family: 'Montserrat Alternates', sans-serif; */
+        }
+        #logo-brand{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 13px;
+           
+            
+        }
+        #logo-brand img{
+            border-radius: 34px;
+            box-shadow  : 3px 1px 11px 2px #712a2a;
+        }
+        
+}
+
+
